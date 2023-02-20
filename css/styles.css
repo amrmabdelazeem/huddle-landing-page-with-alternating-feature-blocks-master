@@ -256,6 +256,11 @@ body{
         margin-right: 3%;
         font-size:13px ;
         padding: 1% 5%;
+        cursor: pointer;
+    }
+
+    .top-header button:hover{
+        opacity: .5;
     }
 
     .top-content{
@@ -290,6 +295,11 @@ body{
         padding: 20px 75px;
         margin-top: 2.9rem ;
         margin-left: 5%;
+        cursor: pointer;
+    }
+
+    .top-content .btn:hover{
+        opacity: .5;
     }
 /* Mid-cards area */
 
@@ -372,6 +382,10 @@ body{
         padding: 3% 12%;
         border-radius: 50px;
         font-size: 1.1rem;
+        cursor: pointer;
+    }
+    .get-started .btn:hover{
+        opacity: .5;
     }
 
     .footer{
@@ -390,10 +404,13 @@ body{
         display: grid;
         grid-template-rows: fit-content(100px) fit-content(100px) fit-content(100px);
         grid-auto-flow: column;
-        justify-content: center;
+        justify-content: space-evenly;
+        justify-items: start;
         align-content: center;
-        grid-gap: 0;
+    }
 
+    .navigation a:hover{
+        text-decoration: underline;
     }
 
     .social-media{
@@ -404,6 +421,11 @@ body{
         margin-left: 6rem;
         font-size: 13px;
     }
-
+    
+    .social-media i:hover{
+        cursor: pointer;
+        color: var(--pink);
+        border-color: var(--pink);
+    }
 
 }
