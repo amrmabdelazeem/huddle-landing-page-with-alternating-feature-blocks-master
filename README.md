@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend-Mentor](https://your-solution-url.com)
+- Solution URL: [Frontend-Mentor](https://www.frontendmentor.io/solutions/huddlelandingpage-with-grid-xlVqSppdr7)
 - Live Site URL: [Github](https://amrmabdelazeem.github.io/huddle-landing-page-with-alternating-feature-blocks-master/)
 
 ### Built with
